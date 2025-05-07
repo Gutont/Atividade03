@@ -1,0 +1,119 @@
+:root {
+    --bg: #000000; 
+    --text: #ffffff; 
+    --border: #383838; 
+    --link: #2c9080; 
+    --link-hover: #08bd98; 
+    --text-glow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3); 
+    --link-glow: 0 0 5px rgba(44, 144, 128, 0.7), 0 0 10px rgba(44, 144, 128, 0.5); 
+  }
+  
+  html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #000000;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: var(--text);
+    font-family: PixelFont;
+    text-shadow: var(--text-glow); 
+  }
+  img{
+      width: 350px;
+      border-radius: 50px;
+  }
+  
+  a:link {
+    color: var(--link);
+    text-decoration: none;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  a:visited {
+    color: var(--link);
+    text-decoration: none;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  p {
+    text-shadow: var(--text-glow); 
+  }
+  
+  h1 {
+    color: var(--link-color);
+    font-family: "Pixel NES";
+    margin: 0;
+    transition: 0.7s;
+  }
+
+  .navbar {
+    word-spacing: 1px;
+    text-align: center;
+    margin-top: 4%;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+  
+  .main{
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+  
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+  
+
+  
+  @media screen and (max-width: 600px) {
+    .navbar {
+      word-spacing: 1px;
+      text-align: center;
+      margin-top: 6%;
+      padding: 10px;
+      margin-left: 15%;
+      margin-right: 15%;
+      border: var(--border) 2px solid;
+      border-radius: 4px;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.6);
+      text-shadow: var(--text-glow); 
+    }
+  
+  }
