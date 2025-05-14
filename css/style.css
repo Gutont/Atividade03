@@ -22,14 +22,18 @@
     width: 100%;
     background-size: cover;
     color: var(--text);
-    font-family: PixelFont;
+    font-family: "Jersey 10", sans-serif;
     text-shadow: var(--text-glow); 
   }
   img{
       width: 350px;
       border-radius: 50px;
   }
-  
+  .img{
+    width: 100px;
+    border-radius: 50px;
+  }
+
   a:link {
     color: var(--link);
     text-decoration: none;
@@ -57,10 +61,22 @@
   
   h1 {
     color: var(--link-color);
-    font-family: "Pixel NES";
     margin: 0;
     transition: 0.7s;
   }
+
+  
+.box {
+  background-color: black;
+  border: 5px solid white;
+  width: 800px;
+  padding: 15px;
+  font-size: 44px;
+  color: white;
+  font-family: "Determination";
+  display: flow-root;
+  margin: 0 auto;
+}
 
   .navbar {
     word-spacing: 1px;
@@ -76,7 +92,22 @@
     color: var(--text);
     text-shadow: var(--text-glow); 
   }
-  
+
+  aside {
+    width: 210px;
+    background: rgba(15, 0, 0, 0.8);
+    text-align: center;
+    margin-top: -18.6%;
+    padding: 10px;
+    margin-left: 71%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+}
+
   .main{
     text-align: center;
     margin-top: 2%;
@@ -91,6 +122,9 @@
   }
   
   .footer {
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -117,3 +151,9 @@
     }
   
   }
+  @font-face {
+    font-family: "Determination";
+    src: url("/fonts/DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

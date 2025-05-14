@@ -1,0 +1,58 @@
+:root {
+    --text-glow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3); 
+    --link-glow: 0 0 5px rgba(44, 144, 128, 0.7), 0 0 10px rgba(44, 144, 128, 0.5); 
+  }
+
+@font-face {
+    font-family: "Determination";
+    src: url("/fonts/DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+}
+img {
+    border-radius: 20px;
+}
+
+.box {
+    background-color: black;
+    border: 5px solid white;
+    width: 800px;
+    padding: 15px;
+    font-size: 44px;
+    color: white;
+    font-family: "Determination";
+    display: flow-root;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+
+.ut2 {
+    display: block;
+    margin: 0 15px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
